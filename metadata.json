@@ -1,0 +1,8 @@
+{
+  "name": "BasxAuth Service PRO",
+  "description": "Full-stack License Key Authentication & Application Management Dashboard (BasxAuth Service PRO) with HWID protection, subscriptions, variables, and client SDK API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

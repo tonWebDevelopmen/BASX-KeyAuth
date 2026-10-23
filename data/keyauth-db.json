@@ -1,0 +1,95 @@
+{
+  "owners": [
+    {
+      "id": "basx-admin-owner",
+      "email": "BASX",
+      "username": "BASX",
+      "password": "$2b$10$ZJp6fnBlmW9R.f1DCOhnoeRHHiR7w.UpeeUyBMfHU1WQZu9IyJFUi",
+      "sellerKey": "seller_basx_service_pro_2026",
+      "accountOwnerId": "k6IHOhxMaB",
+      "createdAt": "2026-10-20T09:54:44.524Z"
+    }
+  ],
+  "apps": [
+    {
+      "id": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "name": "BASXApp1",
+      "description": "Primary Desktop Application build for BasxAuth Service PRO deployment",
+      "secret": "4e6584416bcc4698b97fbab5661d8ed35865f965d2094e8680711fe3a1c0bdb1",
+      "version": "1.0",
+      "paused": false,
+      "ownerId": "basx-admin-owner",
+      "standing": "Good",
+      "createdAt": "2026-10-20T09:30:41.043Z"
+    }
+  ],
+  "keys": [],
+  "users": [],
+  "subscriptions": [],
+  "tiers": [
+    {
+      "id": "568c5de5-98ea-4b34-887c-373ae8a27fbc",
+      "name": "default",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "paused": false,
+      "createdAt": "2026-10-20T09:30:41.043Z"
+    },
+    {
+      "id": "c42c4175-d82a-49e7-9afe-33ca757c3dc2",
+      "name": "Lifetime",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "paused": false,
+      "createdAt": "2026-10-20T09:30:41.043Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "4efa8d5a-d55c-4690-b67d-a6dc2fa7c66b",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "userId": null,
+      "hwid": null,
+      "ip": "127.0.0.1",
+      "expiresAt": "2026-10-20T09:35:53.127Z",
+      "createdAt": "2026-10-20T09:30:53.127Z"
+    },
+    {
+      "id": "06d52963-e18c-4da7-8b42-41ca8b809fc0",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "userId": null,
+      "hwid": null,
+      "ip": "127.0.0.1",
+      "expiresAt": "2026-10-22T13:06:55.410Z",
+      "createdAt": "2026-10-22T12:06:55.410Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "b62b60b7-a1f5-445b-90ba-2cd669a53ada",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "key": "MOTD",
+      "value": "Welcome to BasxAuth Service PRO!"
+    }
+  ],
+  "userVariables": [],
+  "blacklist": [],
+  "webhooks": [],
+  "chatMessages": [],
+  "eventLogs": [
+    {
+      "id": "9ae2f9ee-08e4-42be-b676-bd2909f7c7c7",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "event": "client_init",
+      "description": "Client handshake initiated from IP: 127.0.0.1",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-20T09:30:53.128Z"
+    },
+    {
+      "id": "e4e36ba7-210f-4949-890e-cb8cd40e89d2",
+      "appId": "765c02c1-c123-47a1-9dfb-46270587ee3e",
+      "event": "client_init",
+      "description": "Client handshake initiated from IP: 127.0.0.1",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-22T12:06:55.411Z"
+    }
+  ]
+}
